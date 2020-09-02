@@ -27,7 +27,8 @@
             <option value="Dhaka"> Dhaka </option>
             <option value="Chittagong"> Chittagong </option>
             <option value="Sylhet"> Sylhet </option>
-            <br>
+		 </select>
+		 <br><br>
         <textarea cols="30" rows="10" placeholder="Enter your message here"></textarea>
         <br>
 
@@ -36,9 +37,9 @@
           <h2> Write your Country: </h2>
           <input list="country">
           <datalist id="country"> <!-- id to create relationship with "input list"-->
-            <option value="Bangladesh">
-            <option value="USA">
-            <option value="Canada">
+            <option value="Bangladesh"></option>
+            <option value="USA"></option>
+            <option value="Canada"></option>
           </datalist>
          <!--</form> optional -->
          <!-- This section is for login id and password -->
@@ -49,21 +50,26 @@
           Password:
           <input type="password"><br><br>
 
-          <!-- following codes for creating focus in the feild -->
-          <form action="#" method="POST"> <!--POST for sensetive info-->
-            <label for="nm"> Name </label>
+         <!-- following codes for creating focus in the feild -->
+         <form action="#" method="POST"> <!--POST for sensetive info-->
+
+			 <label for="nm"> Name </label>
             <input id="nm" type="text"> <!-- nm or em to create relationship-->
             <br><br>
-            <label for="em"> Email </label>
+
+			 <label for="em"> Email </label>
             <input id="em" type="email" required> <!-- required for presence check-->
             <br><br>
-            <label for="tl"> Phone </label>
+
+			 <label for="tl"> Phone </label>
             <input id="tl" type="tel" required> <!-- required for presence check-->
             <br><br>
-            <label for="web"> Your website url </label>
+
+			 <label for="web"> Your website url </label>
             <input id="web" type="url">
             <br><br>
-            <input type="checkbox" required> I an not a robot
+
+			 <input type="checkbox" required> I an not a robot
             <br><br>
 
             <input type="file"> Browse file to attach <br>
@@ -73,8 +79,11 @@
             <input type="file"> Browse file to attach <br>
             <input type="reset"> Clear all fields <br>
             <br><br>
-    <input type="submit" name="" value="Send">
 
+			  <input type="submit" name="" value="Send">
+		</form>
+		</form>
+	</form>
   </fieldset>
 </form>
 </body>
