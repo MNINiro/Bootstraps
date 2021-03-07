@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Width and Height</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div style="margin-top: 50px;"></div>
+    <h1 class="display-3 text-center my-4">Width</h1>
+    <div class="container">
+       <div class="bg-success text-white w-25">width 25%</div> <!--It will occupy only 25% area of the horizontal block-->
+       <div class="bg-info text-white w-50">width 50%</div> <!--It will occupy only 50% area of the horizontal block-->
+       <div class="bg-warning text-white w-75">width 75%</div> <!--It will occupy only 75% area of the horizontal block-->
+       <div class="bg-primary text-white w-100">width 100%</div> <!--It will occupy only 100% area of the horizontal block-->
+      <br><br>
+      <hr>
+      
+      <div class="bg-success text-white w-25 float-left">width 25%</div> <!--now it will occupy only 25% area of the horizontal block and all blocks will be arranged side-by-side-->
+      <div class="bg-info text-white w-25 float-left">width 50%</div>
+      <div class="bg-warning text-white w-25 float-left">width 75%</div>
+      <div class="bg-primary text-white w-25 float-left">width 100%</div>
+      <br><br>
+      <hr>
+       
+      <div class="clearfix">
+         <div class="bg-success text-white w-25 d-inline-block">width 25%</div> <!--now it will occupy only 25% area of the horizontal block and all blocks will be arranged side-by-side with a little margin-->
+         <div class="bg-info text-white w-25 d-inline-block">width 50%</div>
+         <div class="bg-warning text-white w-25 d-inline-block">width 75%</div>
+         <div class="bg-primary text-white w-25 d-inline-block">width 100%</div>
+         <br><br>
+         <hr>
+      </div>      
+      <div style="height: 300px;border: 1px solid #333;">
+         <div class="bg-success text-white h-25">height 25%"</div>
+         <div class="bg-info text-white h-50">height 50%"</div>
+         <div class="bg-warning text-white h-75">height 75%"</div>
+         <div class="bg-dark text-light h-100">height 100%"</div>
+      </div>
+   </div>
+
+  <!--Bootstrap scripts-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>  
+</body>
+</html>  

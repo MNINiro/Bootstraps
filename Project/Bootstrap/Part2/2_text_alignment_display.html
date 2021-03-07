@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Alignment</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <p class="text-justified">Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis inventore reiciendis ullam dicta, placeat maxime, distinctio atque soluta accusamus, dolore ipsam molestiae aperiam vitae quibusdam.ipsum dolor sit amet, consectetur adipisicing elit. Magnam enim totam suscipit consectetur asperiores repellat sunt ipsum voluptatem minima? Quis nobis sed assumenda molestiae maiores dolores ea labore aliquid? Inventore!</p>
+    <br><br>
+    <!--ALIGNMENT-->
+    <p class="text-right">Lorem ipsum dolor sit amet.</p>
+    <p class="text-center">Lorem ipsum dolor sit amet.</p>
+    <p class="text-left">Lorem ipsum dolor sit amet.</p>
+
+    <!--Responsive Alignment-->
+    <p class="text-sm-right">Right Alignment on small or large</p> <!--it will work on above 576 pixel screen-->
+    <p class="text-md-right">Right Alignment on medium or large</p> <!--it will work on above 768 pixel screen-->
+    <p class="text-lg-right">Right Alignment on large or larger</p> <!--it will work on above 992 pixel screen-->
+    <p class="text-xl-right">Right Alignment on XL or large</p> <!--it will work on above 1200 pixel screen-->
+
+    <hr>
+    <!--all of the following lines will be in the left side by default-->
+    <p class="text-sm-left">Left Alignment on small or large</p>
+    <p class="text-md-left">Left Alignment on medium or large</p>
+    <p class="text-lg-left">Left Alignment on large or larger</p>
+    <p class="text-xl-left">Left Alignment on XL or large</p>
+    <hr>
+
+    <p class="text-sm-center">Left Alignment on small or large</p>
+    <p class="text-md-center">Left Alignment on medium or large</p>
+    <p class="text-lg-center">Left Alignment on large or larger</p>
+    <p class="text-xl-center">Left Alignment on XL or large</p>
+    <hr>
+    <br><br>
+    <!--Vertical alignmet-->
+    <table style="height: 100px;">
+      <tbody>
+        <tr>
+          <td class="align-baseline">baseline</td>  <!--at the top most position from where table has started-->
+          <td class="align-top">top</td>            <!--According to the baseline it will move to the top-->  
+          <td class="align-middle">middle</td>      <!---->
+          <td class="align-bottom">bottom</td>      <!---->
+          <td class="align-text-top">text-top</td>
+          <td class="align-text-bottom">text-bottom</td> <!-- apparently it shows at the top but it will move to the bottom when more codes will be added -->
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+
+    <h1 class="d-inline bg-success">Hello Dear</h1> <!--backgroung color will be green(success) for full area. d-inline (display-inline) will be confined within first letter are--> 
+    <h1 class="d-inline bg-success">Goodbye</h1> <!--Now both of the lines came to a single line-->
+    <hr>
+
+    <br><br>
+
+    <!--Turn inline into block-->
+
+    <span class="d-block bg-success">Block</span> <!--d-block (display-block) will convert inline into a block, which will cover the entire row-->
+
+    <!--inline-block-->
+    <hr>
+
+    <div class="d-inline-block bg-success"> <!--to confined a whole block (div) into a small area (inline) -->
+      <h3>Hello People</h3>
+      This is inline
+    </div>
+
+    <div class="d-inline-block bg-primary"> <!--to confined a whole block (div) into a small area (inline) -->
+      <h3>Hello People</h3>
+      This is inline
+    </div>
+
+
+  <!--Bootstrap scripts-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>  
+</body>
+</html>  

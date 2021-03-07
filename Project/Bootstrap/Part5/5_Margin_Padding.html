@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin and Padding</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div style="margin-top: 50px;"></div>
+    <h1 class="display-3 text-center my-4">Spacing</h1>
+    <div class="container">
+     <div class="float-left">
+        <h1 class="bg-success mb-1">Lorem, ipsum.</h1> <!--0.25rem margin-bottom-->
+        <h1 class="bg-success mb-2">Lorem, ipsum.</h1> <!--0.5rem margin-bottom. It's defult-->
+        <h1 class="bg-success mb-3">Lorem, ipsum.</h1> <!--1rem margin-bottom-->
+        <h1 class="bg-success mb-4">Lorem, ipsum.</h1> <!--1.5rem margin-bottom-->
+        <h1 class="bg-success mb-5">Lorem, ipsum.</h1> <!--3rem margin-bottom-->
+        <h1 class="bg-success mb-auto">Lorem, ipsum.</h1>
+     </div>
+      
+     <div class="float-right">
+        <h1 class="bg-success mt-0">Lorem, ipsum.</h1>
+        <h1 class="bg-success mt-1">Lorem, ipsum.</h1>
+        <h1 class="bg-success mt-2">Lorem, ipsum.</h1>
+        <h1 class="bg-success mt-3">Lorem, ipsum.</h1>
+        <h1 class="bg-success mt-4">Lorem, ipsum.</h1>
+        <h1 class="bg-success mt-5">Lorem, ipsum.</h1>
+     </div>
+  </div>
+  
+  <div style="margin-top: 500px;"></div>
+   <div style="text-align: center">
+      <h1 class="display-3 text-center my-4">Margin on Paragraph</h1>
+      <p><span class="bg-success mr-5">Lorem ipsum</span> dolor sit amet <span class="bg-warning ml-5">consectetur</span> adipisicing elit.</p> <!--mr-5, Mrgin-right 3rem space. ml-5 will create space at the left side-->
+      <br><br>
+      <hr>
+      <p>Lorem ipsum <span class="bg-success mx-5"> dolor sit amet</span> consectetur adipisicing elit.</p> <!--mx-5 will create spaces in both side. x for x-axis-->
+      <br><br>
+      <hr>
+  </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, necessitatibus.</p>
+      <p class="bg-success my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, necessitatibus.</p> <!--my-5 will create spaces vertically. y for y-axis-->
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, necessitatibus.</p>
+      <br><br>
+      <hr>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, necessitatibus.</p>
+      <p class="bg-success m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, necessitatibus.</p> <!--m-5 will create spaces in all sides-->
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, necessitatibus.</p>
+  
+
+  <div style="margin-top: 50px;"></div>
+    <h1 class="display-3 text-center my-4">Padding</h1>
+    <div class="container">
+     <div class="float-left">
+        <h1 class="bg-warning pb-0">Lorem, ipsum.</h1> <!--0.25rem margin-bottom-->
+        <h1 class="bg-warning pb-1">Lorem, ipsum.</h1> <!--0.5rem margin-bottom. It's defult-->
+        <h1 class="bg-warning pb-2">Lorem, ipsum.</h1> <!--1rem margin-bottom-->
+        <h1 class="bg-warning pb-3">Lorem, ipsum.</h1> <!--1.5rem margin-bottom-->
+        <h1 class="bg-warning pb-4">Lorem, ipsum.</h1> <!--3rem margin-bottom-->
+        <h1 class="bg-warning pb-5">Lorem, ipsum.</h1>
+     </div>
+      
+     <div class="float-right">
+        <h1 class="bg-info pt-0">Lorem, ipsum.</h1>
+        <h1 class="bg-info pt-1">Lorem, ipsum.</h1>
+        <h1 class="bg-info pt-2">Lorem, ipsum.</h1>
+        <h1 class="bg-info pt-3">Lorem, ipsum.</h1>
+        <h1 class="bg-info pt-4">Lorem, ipsum.</h1>
+        <h1 class="bg-info pt-5">Lorem, ipsum.</h1>
+     </div>
+  </div>
+  <div style="margin-top: 500px;"></div>
+   <div style="text-align: center">
+      <h1 class="display-3 text-center my-4">Padding on Paragraph</h1>
+      <p><span class="bg-warning pr-5">Lorem ipsum</span> dolor sit amet <span class="bg-warning pl-5">consectetur</span> adipisicing elit.</p> <!--pr-5, padding-right 3rem space. pl-5 will create padding-left at the left side-->
+      <br><br>
+      <hr>
+      <p>Lorem ipsum <span class="bg-warning px-5"> dolor sit amet</span> consectetur adipisicing elit.</p> <!--px-5 will create padding in both side. x for x-axis-->
+      <br><br>
+      <hr>
+  </div>  
+      <p class="bg-warning py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, necessitatibus.</p> <!--py-5 will create padding vertically. y for y-axis-->
+      <br><br>
+      <hr>
+      <p class="bg-warning p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, necessitatibus.</p> <!--p-5 will create padding in all sides-->
+      
+  <!--
+    {property}{sides}-{size}
+    example: ml-5
+    here, 
+      m : property
+      l : side
+      5 : size
+    used above
+  -->
+
+
+  <!--Bootstrap scripts-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>  
+</body>
+</html>  
